@@ -23,8 +23,7 @@ Interface utilisateur de l’application **Agence Immo**, développée avec **Re
 - **Fetch API** pour les appels HTTP
 - **Tailwind CSS** pour le design
 - **Lucide-react** pour les icônes
-- **React Router DOM** (optionnel si navigation entre pages)
-- Compatible avec une API Flask sur `http://localhost:5000/api`
+- Compatible avec une API Flask en local sur `http://localhost:5000/api`
 
 ---
 

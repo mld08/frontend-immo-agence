@@ -57,24 +57,6 @@ function App() {
     );
   }
 
-  // if (!currentUser) {
-  //   return (
-  //     <PropertyBookingApp />
-  //   );
-  // }
-
-  // if (currentUser && currentUser.role === 'ADMIN') {
-  //   return <BiensManager />;
-  // } else if (currentUser && currentUser.role === 'CLIENT') {
-  //   return <PropertyBookingApp />;
-  // } else {
-  //   return (
-  //     <div className="min-h-screen flex items-center justify-center">
-  //       <div className="text-gray-500">Accès non autorisé</div>
-  //     </div>
-  //   );
-  // }
-
   if (currentUser && currentUser.role === 'ADMIN') {
     return <BiensManager />;
   } else {
